@@ -62,10 +62,10 @@ public class Welcome_FirstPage extends JFrame {
 		JLabel lblNewLabel = new JLabel(image);
 		
 		
-		JLabel lblWelcomeToYourbank = new JLabel("    Code Transaction");
-		lblWelcomeToYourbank.setForeground(new Color(0, 0, 0));
-		lblWelcomeToYourbank.setHorizontalAlignment(SwingConstants.CENTER);
-		lblWelcomeToYourbank.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 28));
+		JLabel lblWelcomeToYourpage = new JLabel("    Code Transaction");
+		lblWelcomeToYourpage.setForeground(new Color(0, 0, 0));
+		lblWelcomeToYourpage.setHorizontalAlignment(SwingConstants.CENTER);
+		lblWelcomeToYourpage.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 28));
 		
 		JLabel lblWhereYouAre = new JLabel("Inspiration worth everything");
 		lblWhereYouAre.setFont(new Font("Times New Roman", Font.ITALIC, 15));
@@ -80,7 +80,7 @@ public class Welcome_FirstPage extends JFrame {
 					.addContainerGap(270, Short.MAX_VALUE))
 				.addGroup(Alignment.LEADING, gl_contentPane.createSequentialGroup()
 					.addGap(78)
-					.addComponent(lblWelcomeToYourbank, GroupLayout.PREFERRED_SIZE, 272, GroupLayout.PREFERRED_SIZE)
+					.addComponent(lblWelcomeToYourpage, GroupLayout.PREFERRED_SIZE, 272, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap(99, Short.MAX_VALUE))
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addContainerGap(210, Short.MAX_VALUE)
@@ -97,7 +97,7 @@ public class Welcome_FirstPage extends JFrame {
 					.addContainerGap()
 					.addComponent(lblNewLabel)
 					.addPreferredGap(ComponentPlacement.RELATED)
-					.addComponent(lblWelcomeToYourbank, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
+					.addComponent(lblWelcomeToYourpage, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(lblWhereYouAre)
 					.addGap(45)
